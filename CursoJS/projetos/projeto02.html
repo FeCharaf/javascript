@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script2.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div class="ano">Ano de nascimento:
+            <input type="number" name="idade" id="idade">
+        </div>
+
+        <div class="sexoContainer">
+            Sexo:
+              <input type="radio" name="sexo" id="masc" checked><label for="masc">Masculino</label>
+              <input type="radio" name="sexo" id="fem"><label for="fem">Feminino</label>
+        </div>
+
+        <div class="btn">
+            <button onclick="verificarIdade()">Verificar</button>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+
+    <footer><p>&copy; FeCharaf</p></footer>
+</body>
+</html>
