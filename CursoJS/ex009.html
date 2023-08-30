@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>De qual país você é?</h1>
+    <input type="text" id="pais">
+    <input type="button" value="Submit" onclick="qualPais()">
+    <div id="resultado"></div>
+
+<script>
+    function qualPais() {
+        var pais = document.getElementById('pais').value
+        var res = document.getElementById('resultado')
+
+        res.innerHTML += `<p>Seu país é ${pais}</p>`
+        if (pais != 'Brasil') {
+            res.innerHTML += `<p>Voce ta mal na fita</p>`
+        } else {
+            res.innerHTML += `<p>Voce se deu bem</p>`
+        }
+
+    }
+   
+</script>
+</body>
+</html>
