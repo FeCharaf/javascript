@@ -11,3 +11,5 @@ function verificarIdade() {
 
     res.innerHTML = `O seu ano de nascimento é ${ano} e o seu sexo é ${genero}`
 }
+
+
