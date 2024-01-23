@@ -36,8 +36,8 @@ body {
 }
 
 .full-image img {
-    max-width: 90%;
-    max-height: 90%;
+    width: 500px;
+    height: 300px;
 }
 
 .close-btn {
