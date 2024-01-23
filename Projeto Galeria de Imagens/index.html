@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galeria de imagens</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="gallery">
+        <div class="thumbnails">
+            <img src="img/image1.jpg" alt="img1" onclick="showImage(1)">
+            <img src="img/image2.jpg" alt="img2" onclick="showImage(2)">
+        </div>
+        <div class="full-image" id="fullImageContainer">
+            <span class="close-btn" onclick="closeImage()">X</span>
+            <img src="" alt="Full Image" id="fullImage">
+        </div>
+    </div>
+</body>
+</html>
